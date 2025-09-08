@@ -1,6 +1,10 @@
 name: Android CI
 
 on:
+  workflow_dispatch:
+
+
+on:
   push:
     branches: [GAbuild]
   pull_request:
