@@ -26,4 +26,5 @@ import me.proton.core.challenge.data.frame.ChallengeFrame
 data class LoginLessRequest(
     @SerialName("Payload")
     val payload: Map<String, ChallengeFrame?>
+    
 )
